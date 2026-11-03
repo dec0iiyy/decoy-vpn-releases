@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 108 108" role="img" aria-label="Decoy VPN">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F5F9F8"/>
+      <stop offset="1" stop-color="#DFE9E6"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="54" cy="54" r="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#AAF0E2" stop-opacity="0.70"/>
+      <stop offset="0.4" stop-color="#AAF0E2" stop-opacity="0.35"/>
+      <stop offset="0.7" stop-color="#AAF0E2" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#AAF0E2" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="shape">
+      <rect x="2" y="2" width="104" height="104" rx="24"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#shape)">
+    <rect width="108" height="108" fill="url(#base)"/>
+    <rect width="108" height="108" fill="url(#glow)"/>
+  </g>
+  <rect x="2.5" y="2.5" width="103" height="103" rx="23.5" fill="none" stroke="#13201D" stroke-opacity="0.08"/>
+  <g fill="#13201D" transform="translate(54 54) scale(1.45) translate(-54 -54)">
+    <path d="M41.465,38.000L45.753,38.000A1.440,1.440 0 0,1 47.193,39.440L47.193,68.560A1.440,1.440 0 0,1 45.753,70.000L41.465,70.000A1.440,1.440 0 0,1 40.025,68.560L40.025,39.440A1.440,1.440 0 0,1 41.465,38.000Z"/>
+    <path d="M49.113,55.095L49.113,39.440A1.440,1.440 0 0,1 50.553,38.000L54.457,38.000A16.000,16.000 0 0,1 66.687,43.683Z"/>
+    <path d="M49.113,57.385L67.837,45.226A16.000,16.000 0 0,1 54.457,70.000L50.553,70.000A1.440,1.440 0 0,1 49.113,68.560Z"/>
+  </g>
+</svg>
